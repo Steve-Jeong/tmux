@@ -33,6 +33,10 @@
 - **tmux-cpu**: CPU 사용률 표시
 - **tmux-battery**: 배터리 상태 표시
 
+#### 현재 tmux 환경(세션, 창, 팬, 레이아웃 등)을 저장하고 복원
+- **tmux-resurrect**: 현재 tmux 환경(세션, 창, 팬, 레이아웃 등)을 저장하고 복원하는 핵심 기능을 제공
+- **tmux-continuum**: tmux-resurrect의 확장 플러그인으로, 주기적으로 tmux 환경을 자동 저장하고, tmux 시작 시 자동으로 복원
+
 ### 상태바 구성
 
 #### 왼쪽 상태바
